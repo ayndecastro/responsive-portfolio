@@ -217,7 +217,7 @@ span{
      background: #fff;
      border-bottom: solid #cccccc;
      display: inline-block;
-     padding-left: 30%;
+     padding: auto 5% auto 5%;
  }
  .container2 {
      width: 95%;
@@ -230,8 +230,8 @@ span{
      font-size: 16px;
  }
  .indeximage {
-     margin-left: 25%;
-     margin-right: 25%;
+     margin-left: 15%;
+     margin-right: 20%;
  }
  .imgHolder, .portfoliosection {
      position: relative;
@@ -239,7 +239,7 @@ span{
      vertical-align: middle;
  }
  .imgHolder {
-     margin-left: 25%;
+     margin-left: 22%;
  }
  .text {
      width: 93%;
