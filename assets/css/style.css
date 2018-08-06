@@ -115,6 +115,21 @@ form {
     font: bold;
     text-shadow:none;
 }
+/*
+.imgHolder {
+    background: url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/cars.jpg);
+    width: 250px;
+    height:250px;
+}
+.imgtitle {
+    background: #4aaaa4;
+    position: absolute;
+    margin-top: 200px;
+    width: 250px;
+    color: #fff;
+    text-align: center;
+}
+*/
 .portfoliosection {
     border: none;
     box-sizing: border-box;
@@ -126,27 +141,39 @@ form {
 .pimage {
     margin: auto 10px auto 10px;
 }
+.one {
+    background: url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/hangman.jpg);
+}
+.two {
+    background:url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/rpg-games.jpg);
+}
+.three {
+    background:url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/sports.jpg);
+}
+.four {
+    background:url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/sports.jpg);
+}
+.five {
+    background:url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/cars.jpg);
+}
 .imgHolder {
     position: relative;
-    max-width:320px;
-    min-width: 250px;
-    padding: 10px 10px 10px 10px;
-    margin-left: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
 
 }
 span{
     position: absolute;
     background: #4aaaa4;
-    z-index: 999;
-    width: 250px;
-    text-align: center;
-    padding: 5px 0px 5px 0px;
-    height: 25px;
-    right: 70px;
-    bottom: 25px;
     color: #fff;
-}
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    margin-top: 180px;
+    padding-top: 15px;
 
+}
 .footer {
     border-top: solid 5px #4aaaa4;
     position: fixed;
@@ -218,7 +245,7 @@ span{
      border-bottom: solid #cccccc;
      display: inline-block;
      padding: 0px 10px 0px 20%;
-     width: 640px;
+     width: 77%;
  }
  .container2 {
      width: 95%;
@@ -241,8 +268,4 @@ span{
  .text {
      width: 93%;
  }
- span {
-     right: 6.9%;
- }
-
 }
