@@ -1,0 +1,251 @@
+*{
+    font-family: "arial";
+}
+h1{
+    font-family: "georgia";
+    font-size: 24px;
+}
+body {
+    margin-top: 100px;
+    width: 100%;
+}
+section, .row{
+    border: none;
+    max-width:754px;
+    height:66px;
+    position: absolute;
+    min-width: 50%;
+}
+.container, .title {
+    border-bottom: solid #cccccc;
+}
+.container {
+    z-index:100000000;
+    box-sizing: border-box;
+    padding: 0px auto;
+    margin: auto 0px 100px 0px;
+    width: 100%;
+    max-height: 70px;
+    background: #fff;
+    position: fixed;
+    top: -8px;
+}
+.container2 {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    max-width: 960px;
+    min-height: 500px;
+    max-height: auto;
+    margin: 10px auto 100px auto;
+    background: #fff;
+}
+.btn, section, .name {
+    position:relative;
+    display: inline-block;
+}
+.row{
+    display: inline-block;
+    padding-left: 280px;
+    padding-right: 300px;
+    margin: 0px auto;
+}
+.name{
+    width:300px;
+    float: right;
+    padding-top: 23px;
+    padding-bottom: 17px;
+    background: #4aaaa4;
+    color: white;
+    text-align: center;
+    top: -20px;
+    margin-right: 180px;
+}
+.btn {
+    border-right: solid 1px #cccccc;
+    height: 5px;
+    padding: 30px 10px;
+    position: relative;
+    padding: 0px 5px 10px 5px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    color: #777;
+}
+.btn:hover {
+    color: #4aaaa4;
+    text-decoration: underline;
+}
+#btn1 {
+    border-right: none;
+}
+.title{
+    color:  #4aaaa4;
+    margin: 20px 10px;
+}
+.indeximage{
+    position: relative;
+    float: left;
+    margin: 5px 10px;
+}
+p, h4{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: left;
+    position: relative;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: #777;
+}
+form {
+    border: none;
+    padding-left: 13px;
+    padding-bottom: 20px;
+}
+.text{
+    width: 900px;
+}
+.submit {
+    background: #4aaaa4;
+    color: white;
+    border-style: outset;
+    border-color: #4aaaa4;
+    height: 40px;
+    width: 100px;
+    margin-left: 9px;
+    font: bold;
+    text-shadow:none;
+}
+.portfoliosection {
+    border: none;
+    box-sizing: border-box;
+    max-width: 960px;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.pimage {
+    margin: auto 10px auto 10px;
+}
+.imgHolder {
+    position: relative;
+    max-width:320px;
+    min-width: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+
+}
+span{
+    position: absolute;
+    background: #4aaaa4;
+    z-index: 999;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    height: 25px;
+    right: 70px;
+    bottom: 25px;
+    color: #fff;
+}
+
+.footer {
+    border-top: solid 5px #4aaaa4;
+    position: fixed;
+    box-sizing: border-box;
+    padding-top: 25px;
+    width:100%;
+    height:50px;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    bottom: -1px;
+    z-index: 100000;
+    font-size: 10px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 980px) {
+    .container2 {
+        width: 80%;
+        margin: 5% 5% 10% 5%;
+    }
+    p {
+        font-size: 14px;
+    }
+    .name {
+        margin-right: 28%;
+    }
+    .row{
+        padding-left:25%;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    .text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container2 {
+        width: 90%;
+    }
+    p {
+        font-size: 16px;
+    }
+    .name {
+        margin-right: 12%;
+    }
+    .row {
+        padding-left: 18%;
+    
+}
+
+@media screen and (max-width: 640px) {
+}
+ .container {
+     height: 150px;
+     position: static;
+ }
+ section, .row {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+ }
+ .name {
+     width: 98%;
+ }
+ .row {
+     background: #fff;
+     border-bottom: solid #cccccc;
+     display: inline-block;
+     padding-left: 30%;
+ }
+ .container2 {
+     width: 95%;
+     margin: 2px 2px 100px 2px;
+ }
+ p, .indeximage {
+     position: relative;
+     display: inline-block;
+     vertical-align: middle;
+     font-size: 16px;
+ }
+ .indeximage {
+     margin-left: 25%;
+     margin-right: 25%;
+ }
+ .imgHolder, .portfoliosection {
+     position: relative;
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .imgHolder {
+     margin-left: 25%;
+ }
+ .text {
+     width: 93%;
+ }
+ span {
+     right: 6.9%;
+ }
+
+}
