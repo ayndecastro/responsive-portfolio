@@ -231,6 +231,12 @@ body {
  .name {
      width: 100%;
  }
+ .subrow {
+     position: absolute;
+     border: solid;
+     left: -6%;
+     width: 100%;
+ }
  .row {
      background: #fff;
      border-bottom: solid #cccccc;
