@@ -124,9 +124,6 @@ form {
     grid-template-columns: repeat(2, 1fr);
     
 }
-.pimage {
-    margin: auto 10px auto 10px;
-}
 .one {
     background: url(https://raw.githubusercontent.com/ayndecastro/responsive-portfolio/master/assets/images/hangman.jpg);
 }
@@ -208,8 +205,12 @@ span{
     .name {
         margin-right: 12%;
     }
+    .subrow {
+        padding: 0%;
+        margin-right: 22%;
+    }
     .row {
-        padding-left: 18%;
+        text-align: center;
     
 }
 
